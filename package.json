@@ -1,0 +1,28 @@
+{
+    "name": "wildlife-conservation-backend",
+    "version": "1.0.0",
+    "description": "Backend for Wildlife Conservation Project",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "Akhil",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^3.0.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^7.3.1",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.5-lts.2",
+        "socket.io": "^4.7.2",
+        "validator": "^13.15.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
